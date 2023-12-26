@@ -17,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::post('payment', function () {
     return response()->json([
         'data' => [
-            'status' => true
+            'status' => true,
+            'data' => null
         ]
     ]);
 });
